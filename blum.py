@@ -1,4 +1,4 @@
-# Made with ❤ by @adearman
+# Made with ❤ by Teguh Kontol
 # Join tele channel for update t.me/ghalibie
 import argparse
 import random
@@ -39,12 +39,12 @@ while True:
     print(Fore.YELLOW + Style.BRIGHT + f"2. Custom Tribe (Input your tribe id)")
     tribe_selection = input(Fore.YELLOW + Style.BRIGHT + "Select Tribe: ").strip()
     if tribe_selection == "1":
-        tribe_id = "4cc96181-1cd3-4494-ae49-7b7cb0e81eff"
+        tribe_id = "0191a323-aa7c-737d-8c65-ddfee748ce0c"
         break
     elif tribe_selection == "2":
         print(Fore.YELLOW + Style.BRIGHT + "HAH !!! SIKE !!!, MODIF THE CODE BY YOURSELF IF YOU WANT TO CUSTOM JOIN THE TRIBE !!")
-        print(Fore.YELLOW + Style.BRIGHT + "Using default tribe: PENCAIRAN BANSOS (Public)")
-        tribe_id = "a4578390-4329-4663-b83a-4186d52abafc"
+        print(Fore.YELLOW + Style.BRIGHT + "Using default tribe: Teguh Kontol (Public)")
+        tribe_id = "0191a323-aa7c-737d-8c65-ddfee748ce0c"
         break
     else:
         print(Fore.RED + Style.BRIGHT + "Invalid selection. Please select again.")
