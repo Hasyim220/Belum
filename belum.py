@@ -28,7 +28,7 @@ def parse_arguments():
     return args
 while True:
     print(Fore.YELLOW + Style.BRIGHT + f"Select Tribe: ")
-    print(Fore.YELLOW + Style.BRIGHT + f"1. [ Teguh Telur kontol 1 ] kontol")
+    print(Fore.YELLOW + Style.BRIGHT + f"1. [ Teguh Telur kontol 1 ")
     print(Fore.YELLOW + Style.BRIGHT + f"2. Custom Tribe (Input your tribe id)")
     tribe_selection = input(Fore.YELLOW + Style.BRIGHT + "Select Tribe: ").strip()
     if tribe_selection == "1":
@@ -501,7 +501,7 @@ _____ _____ ____ _   _ _   _
   |_| |_____\____|\___/|_| |_|                                                             
                             """)
     print(Fore.GREEN + Style.BRIGHT + "Blum BOT")
-    print(Fore.YELLOW + Style.BRIGHT + "Free Konsultasi Join Telegram Channel: https://t.me/ghalibie")
+    print(Fore.YELLOW + Style.BRIGHT + "Free Konsultasi Join Telegram Channel: TEGUU KONTOL")
     print(Fore.BLUE + Style.BRIGHT + "Buy me a coffee :) 089619642255 GOPAY / DANA")
     print(Fore.RED + Style.BRIGHT + "NOT FOR SALE ! Ngotak dikit bang. Ngoding susah2 kau tinggal rename :)\n\n")
     current_time = datetime.datetime.now()
