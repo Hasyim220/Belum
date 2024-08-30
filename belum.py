@@ -1,5 +1,5 @@
 # Made with ❤ by Teguh Kontol
-# Join tele channel for update t.me/ghalibie
+# Join tele channel for update Teguh Kontol
 import argparse
 import random
 import requests
