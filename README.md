@@ -14,6 +14,6 @@ git clone https://github.com/Hasyim220/blumautobot
 
 cd blumautobot
 
-nano tgwebapp.txt (tambahin query lalu save)
+nano query.txt (tambahin query lalu save)
 
 python blum.py
