@@ -493,17 +493,31 @@ def join_tribe(token, tribe_id):
         print(f"{Fore.RED+Style.BRIGHT}[ Tribe ] Failed to join TRIBE")
 def print_welcome_message():
     print(r"""
-          
-_____ _____ ____ _   _ _   _ 
-|_   _| ____/ ___| | | | | | |
-  | | |  _|| |  _| | | | |_| |
-  | | | |__| |_| | |_| |  _  |
-  |_| |_____\____|\___/|_| |_|                                                             
+░░░░░░░░░░░░░░░░░░░░░▄▀░░▌
+░░░░░░░░░░░░░░░░░░░▄▀▐░░░▌
+░░░░░░░░░░░░░░░░▄▀▀▒▐▒░░░▌
+░░░░░▄▀▀▄░░░▄▄▀▀▒▒▒▒▌▒▒░░▌
+░░░░▐▒░░░▀▄▀▒▒▒▒▒▒▒▒▒▒▒▒▒█
+░░░░▌▒░░░░▒▀▄▒▒▒▒▒▒▒▒▒▒▒▒▒▀▄
+░░░░▐▒░░░░░▒▒▒▒▒▒▒▒▒▌▒▐▒▒▒▒▒▀▄
+░░░░▌▀▄░░▒▒▒▒▒▒▒▒▐▒▒▒▌▒▌▒▄▄▒▒▐
+░░░▌▌▒▒▀▒▒▒▒▒▒▒▒▒▒▐▒▒▒▒▒█▄█▌▒▒▌
+░▄▀▒▐▒▒▒▒▒▒▒▒▒▒▒▄▀█▌▒▒▒▒▒▀▀▒▒▐░░░▄
+▀▒▒▒▒▌▒▒▒▒▒▒▒▄▒▐███▌▄▒▒▒▒▒▒▒▄▀▀▀▀
+▒▒▒▒▒▐▒▒▒▒▒▄▀▒▒▒▀▀▀▒▒▒▒▄█▀░░▒▌▀▀▄▄
+▒▒▒▒▒▒█▒▄▄▀▒▒▒▒▒▒▒▒▒▒▒░░▐▒▀▄▀▄░░░░▀
+▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒▄▒▒▒▒▄▀▒▒▒▌░░▀▄
+▒▒▒▒▒▒▒▒▀▄▒▒▒▒▒▒▒▒▀▀▀▀▒▒▒▄▀   
+  _____ _____ ____ _   _ _   _ 
+  |_   _| ____/ ___| | | | | | |
+    | | |  _|| |  _| | | | |_| |
+    | | | |__| |_| | |_| |  _  |
+    |_| |_____\____|\___/|_| |_|                                                             
                             """)
     print(Fore.GREEN + Style.BRIGHT + "Blum BOT")
-    print(Fore.YELLOW + Style.BRIGHT + "Free Konsultasi Join Telegram Channel: TEGUU KONTOL")
+    print(Fore.YELLOW + Style.BRIGHT + "Free Konsultasi Join Telegram Channel: TEGUH KONTOL")
     print(Fore.BLUE + Style.BRIGHT + "Buy me a coffee :) 089619642255 GOPAY / DANA")
-    print(Fore.RED + Style.BRIGHT + "NOT FOR SALE ! Ngotak dikit bang. Ngoding susah2 kau tinggal rename :)\n\n")
+    print(Fore.RED + Style.BRIGHT + "THANKS TO TEGUH KONTOL:)\n\n")
     current_time = datetime.datetime.now()
     up_time = current_time - start_time
     days, remainder = divmod(up_time.total_seconds(), 86400)
