@@ -28,16 +28,16 @@ def parse_arguments():
     return args
 while True:
     print(Fore.YELLOW + Style.BRIGHT + f"Select Tribe: ")
-    print(Fore.YELLOW + Style.BRIGHT + f"1. [ Ghalibie ] Lounge")
+    print(Fore.YELLOW + Style.BRIGHT + f"1. [ Teguh Telur kontol 1 ] kontol")
     print(Fore.YELLOW + Style.BRIGHT + f"2. Custom Tribe (Input your tribe id)")
     tribe_selection = input(Fore.YELLOW + Style.BRIGHT + "Select Tribe: ").strip()
     if tribe_selection == "1":
-        tribe_id = "0191a323-aa7c-737d-8c65-ddfee748ce0c"
+        tribe_id = "f4ac88ec-9021-4378-9147-8cbf19420018"
         break
     elif tribe_selection == "2":
         print(Fore.YELLOW + Style.BRIGHT + "HAH !!! SIKE !!!, MODIF THE CODE BY YOURSELF IF YOU WANT TO CUSTOM JOIN THE TRIBE !!")
         print(Fore.YELLOW + Style.BRIGHT + "Using default tribe: Teguh Kontol (Public)")
-        tribe_id = "0191a323-aa7c-737d-8c65-ddfee748ce0c"
+        tribe_id = "f4ac88ec-9021-4378-9147-8cbf19420018"
         break
     else:
         print(Fore.RED + Style.BRIGHT + "Invalid selection. Please select again.")
